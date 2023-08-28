@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Easy to use and learn">
+        <meta name="keywords" content="web design, affordable web design, professional web design">
+        <meta name="author" content="Hedi">
+    </head>
+    <body>
+    <nav>
+      <div class="logo">
+       <h1>Logo</h1>
+      </div>
+
+            <ul>
+                <li><a href=""  onclick="alert('En cours de construction...!!!')">Acceuil</a></li>
+                <li><a href=""  onclick="alert('En cours de construction...!!!')">Services</a></li>
+                <li><a href=""  onclick="alert('En cours de construction...!!!')">Contact</a></li>
+            </ul>
+     
+            <div class="burger-toggle">
+                <div for="burger-toggle" class="burger" onclick="toggleMenu()">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+              </div>
+       <div class="user">
+        <button class="btn"  onclick="did.showModal()">Login</button>
+        <img class="avatar" src="img/man1.jpg" alt="user">
+       </div>
+    </nav>
+
+    <section class="container">
+        <div class="text">
+            <h4>La PS5 Pro est l’une des consoles les plus attendues du moment. Nous savons peut-être déjà combien il faudra dépenser pour s’offrir le nouveau modèle de Sony, si l’on en croit les informations d’un YouTubeur.</h4>
+       <p>Dans une nouvelle de ses vidéos, le YouTubeur RedGamingTech a dévoilé qu’il avait entendu que la PS5 pourrait coûter entre 600 et 700 dollars, soit au moins 700 euros chez nous. C’est donc une hausse significative par rapport aux PS5 Digital Edition et PS5, qui coûtent respectivement 399 dollars et 499 dollars, ou 449 euros et 549 euros en France.
+    
+    Il faut évidemment s’attendre à un GPU plus puissant que la génération actuelle, qui permettra aux joueurs de profiter de leurs titres préférés avec une meilleure stabilité ou avec de bien meilleurs graphismes. Il ne s’agirait cependant pas de la seule amélioration que proposera la console, puisqu’en plus de performances en hausses, on peut également attendre un nouveau design, et peut-être même un refroidissement liquide.</p>
+        <button onClick="javascript:window.open('https://fr.wikipedia.org/wiki/PlayStation_5', '_blank');" class="bnt1">Savoir plus</button>
+        </div>
+        <div class="photo">
+                <img src="img/ps5-pro-et-slim-removebg-preview.png" alt="Consol">
+        </div>
+    </section>
+    <footer>
+        <span>Responsive &copy; Sekma Mohamed Hedi - 2023</span>
+    </footer>
+    <dialog class="did" id="did">
+<form class="form" action="">
+    <label for="email">E-mail: <input type="email" id="email"></label>
+    <label for="name">Pseudo: <input type="text" id="name"></label>
+    <label for="password">Password: <input type="password" id="password"></label>
+    <div>
+        <button class="btnDialog" onclick="did.close()">Close</button>
+        <button class="btnDialog" onclick="alert('En cours de construction...!!!')">Entrer</button>
+    </div>
+</form>
+</dialog>
+    <script src="js/script.js"></script>
+</body>
+</html>
