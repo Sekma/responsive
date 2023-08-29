@@ -22,7 +22,6 @@ nav {
     align-content: center;
     justify-content: center;
     padding: 5px auto;
-    transition: height 0.5s;
 }
 .logo {
    color: white;
@@ -194,17 +193,18 @@ input{
     .burger-toggle.active .line:nth-child(1) {
       transform: translateY(8px) rotate(-45deg);
       background-color: rgb(252, 252, 142);
-      transition: transform 0.5s;
+      transition: all 0.5s;
       }
       
       .burger-toggle.active .line:nth-child(2) {
         opacity: 0;
+        transition: opacity 0.5s;
       }
       
       .burger-toggle.active .line:nth-child(3) {
         transform: translateY(-8px) rotate(45deg);
         background-color: rgb(252, 252, 142);
-        transition: transform 0.5s;
+        transition: all 0.5s;
       }
       nav.active{
         height: 110px;
@@ -221,7 +221,9 @@ input{
     nav.active ul{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
     } 
  
     .did{
