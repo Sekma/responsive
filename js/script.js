@@ -1,10 +1,8 @@
 function toggleMenu() {
-   
-    const burgerToggle = document.querySelector('.burger-toggle');
-    const nav = document.querySelector('nav');
 
-    burgerToggle.classList.toggle('active');
-    nav.classList.toggle('active');
+    document.querySelector('.burger-toggle').classList.toggle('active');
+    document.querySelector('nav').classList.toggle('active');
+
   }
 
 
