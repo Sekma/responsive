@@ -138,6 +138,7 @@ footer{
   padding: 20px;
   text-align: center;
   color: grey;
+  font-size: small;
 }
 .form{
   display: flex;
